@@ -728,8 +728,8 @@ case prefix+'infobot':
     case prefix+'info':
       var caption = `*[ INFO IZUMI BOT ]*
 
-*Nama Bot :* Izumi - MD
-*Name Owner :* Christian ID
+*Nama Bot :* Xell - Botz
+*Name Owner :* Xell
 *Nomor Bot :* wa.me/${nobot}
 *Nomor Owner :* wa.me/${ownerNumber}
 *Engine :* NodeJs
@@ -743,6 +743,7 @@ Thanks To
 - Christian ID
 - Amel
 - Hardianto
+-Rahmat
 - Febri`
 
 conn.sendMessage(from, {caption: caption, location: fs.readFileSync('media/chris2.jpg')}, {quoted: msg})
