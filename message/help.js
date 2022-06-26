@@ -108,13 +108,6 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ✾ ${prefix}tinyurl *link*
   
   *❒ Premium User*
-  ✾ ${prefix}asupan
-  ✾ ${prefix}xnxx link
-  ✾ ${prefix}ahegao
-  ✾ ${prefix}bloewjob
-  ✾ ${prefix}hentai
-  ✾ ${prefix}masturbation
-  ✾ ${prefix}pussy
   ✾ ${prefix}tiktok *Link Tiktok*
   ✾ ${prefix}tiktokaudio *Link Tiktok*
   
