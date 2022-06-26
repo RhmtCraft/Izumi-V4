@@ -108,6 +108,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ✾ ${prefix}tinyurl *link*
   
   *❒ Premium User*
+  ✾ ${prefix}asupan
   ✾ ${prefix}tiktok *Link Tiktok*
   ✾ ${prefix}tiktokaudio *Link Tiktok*
   
@@ -292,6 +293,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   - @arsrfi.jpg (Arasya)
   - M Hadi Firmansya (Hadi Api)
   - @melcanz_ (Amel)
+  - @rhmt.editz (Rahmat)
   - @${setting.Instagram} (Owner)
   - @chris.tianid (Christian ID)
   - @hardianto.xyz (Anto)`
