@@ -388,7 +388,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 
             if (chats.match(`://chat.whatsapp.com`)) {
 
-                reply(`*[ GROUP LINK DETECTOR ]*\n\nSepertinya kamu mengirimkan link grup, maaf kamu akan di kick`)
+                reply(`*[ GROUP LINK DETECTOR ]*\n\nLink grup terdeteksi....Can I kick it?`)
 
                 number = sender
 
@@ -400,7 +400,7 @@ module.exports = async(conn, msg, m, setting, store) => {
          // Anti wame
         if (isGroup && isAntiWame && !isOwner && !isGroupAdmins && isBotGroupAdmins){
             if (chats.match(/(wa.me\/)/gi)) {
-                reply(`*[ NOMOR LINK DETECTOR ]*\n\nSepertinya kamu mengirimkan link nomor, maaf kamu akan di kick`)
+                reply(`*[ NOMOR LINK DETECTOR ]*\n\nLink nomer terdeteksi....Can I kick it?`)
                 number = sender
 
       conn.groupParticipantsUpdate(from, [number], "remove")
