@@ -82,7 +82,7 @@ const capt = "*By Xell-Botz MD*" // Ganti Nama Bot Kalian
 const grup = "https://chat.whatsapp.com/IrU6SQAYgHrBRgRBSfKLY2" // Ganti Link Group Kalian
 const nomorown = "https://wa.me/6283867149253" // Ganti Nomor Kalian
 const note = "*_Jangan menyalahgunakan bot, kalo ketahuan owner bisa diblock!!!_*" // Kalau Mau Ganti Aja
-const namagrup = "Xell-Botz-Group" // Ubah Nama Group Mu
+const namagrup = "ANJIM" // Ubah Nama Group Mu
 
 // Setting Donasi
 const gopay = "Ga tau" // Ganti Nomor Gopay Mu
