@@ -158,7 +158,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		const chats = (type === 'conversation' && msg.message.conversation) ? msg.message.conversation : (type == 'imageMessage') && msg.message.imageMessage.caption ? msg.message.imageMessage.caption : (type == 'documentMessage') && msg.message.documentMessage.caption ? msg.message.documentMessage.caption : (type == 'videoMessage') && msg.message.videoMessage.caption ? msg.message.videoMessage.caption : (type == 'extendedTextMessage') && msg.message.extendedTextMessage.text ? msg.message.extendedTextMessage.text : (type == 'buttonsResponseMessage' && msg.message.buttonsResponseMessage.selectedButtonId) ? msg.message.buttonsResponseMessage.selectedButtonId : (type == 'templateButtonReplyMessage') && msg.message.templateButtonReplyMessage.selectedId ? msg.message.templateButtonReplyMessage.selectedId : ''
 		const toJSON = j => JSON.stringify(j, null,'\t')
 		if (conn.multi) {
-			var prefix = /^[Â°â€¢Ï€Ã·Ã—Â¶âˆ†Â£Â¢â‚¬Â¥Â®â„¢âœ“_=|~!?#$%^&.+-,\/\\Â©^]/.test(chats) ? chats.match(/^[Â°â€¢Ï€Ã·Ã—Â¶âˆ†Â£Â¢â‚¬Â¥Â®â„¢âœ“_=|~!?#$%^&.+-,\/\\Â©^]/gi) : '#'
+			var prefix = /^[.]/.test(chats) ? chats.match(/^[.]/gi) : '#'
 		} else {
 			if (conn.nopref) {
 				prefix = ''
